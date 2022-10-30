@@ -1,0 +1,566 @@
+/*CSS CLEANED BY ABDULLAH AL MARUF*/
+
+@charset "utf-8";
+* {
+    padding: 1;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #C5D394;
+}
+
+a,
+a:link {
+    color: #558C07;
+    text-decoration: none
+}
+
+a:hover {
+    color: #003399;
+    text-decoration: underline;
+}
+
+#wrapper {
+    text-align: center;
+    width: 914px;
+}
+
+#header {
+    height: 94px;
+    width: 100%;
+    background: url(images/banner_bg.jpg) repeat-x top left;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+#logo {
+    background: url(images/bangladesh_govt_logo.gif) no-repeat;
+    height: 82px;
+    width: 82px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+#title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFF;
+    padding: 0px;
+    padding-left: 15px;
+    padding-top: 20px;
+    line-height: 24px;
+    text-align: left;
+}
+
+#title span.subtitle {
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-top: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+#banner {
+    width: 336px;
+    height: 94px;
+    background: url(images/banner_right.jpg) no-repeat right top;
+}
+
+#navBar {
+    background: url(images/top_nav_bg.jpg) left top repeat-x;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+/*CSS for Menu*/
+
+#mainMenu {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+#navBar a#active_menu {
+    background-position: 0px 0px !important;
+    border-left: 0px solid #78c757;
+    border-right: 0px solid #78c757;
+    background-position: 0px -1px;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+#wrap #menu table tr td {
+    background: #FEFFF5;
+}
+
+#wrap #menu table tr td a.mainlevel-trans {
+    background: #FEFFF5 url(images/nav_bullet.gif) top left no-repeat;
+    border: 0px;
+    border-bottom: 1px solid #B0BAA6;
+    color: #000000;
+}
+
+#wrap #menu table tr td a.mainlevel-trans:hover {
+    background: #E8EBB1 url(images/nav_bullet.gif) top left no-repeat;
+    border: 0px;
+    border-bottom: 1px solid #B0BAA6;
+    color: #000000;
+}
+
+#wrap #menu table tr td a.mainlevel_active-trans {
+    background: #C1E88F url(images/nav_bullet.gif) top left no-repeat;
+    border: 0px;
+    border-bottom: 1px solid #B0BAA6;
+    color: #000000;
+}
+
+#navBar .right {
+    text-align: right;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    color: #000
+}
+
+#navBar .right a.mainlevel {
+    display: inline-block;
+    padding: 0px 8px !important;
+    color: #558C07;
+    line-height: 1em;
+    font-size: 14px
+}
+
+#navBar .right a.mainlevel:hover {
+    background-position: 0px 1px !important;
+    background-position: 0px 0px
+}
+
+/*CSS for Search Bar*/
+
+div.search {
+    padding-bottom: 0px !important;
+    padding:5px 4px;
+}
+
+div.search input {
+    font-size: 10px;
+    padding: 1px 0;
+    border: 1px solid #DDD;
+    border:none;
+    background: #FFF;
+    color: #333333;
+    margin-left: 10px;
+   
+    
+}
+
+div.search input.button {
+    background: url(images/btn_search.gif) no-repeat;
+    border: none;
+    color: #FFF;
+    padding: 0;
+    margin: 0px;
+    width: 53px;
+    height: 17px;
+    text-indent: -5000px;
+    vertical-align: middle;
+    margin-left: 2px;
+    font-size: 0px;
+    outline: none;
+}
+
+div.search input.inputbox {
+    padding-left: 3px;
+    color: #666666;
+    font-size: 10px;
+}
+
+#searchBox {
+    text-align: left;
+    vertical-align: middle;
+
+}
+
+/*CSS for Breadcrum*/
+
+.pathway {
+    text-align: left;
+    margin-left: 12px;
+    color: #FF7900;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pathway a {
+    text-align: left;
+    margin-left: 0px;
+    color: #558C07;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/*CSS for Module setup in line*/
+
+div.module {
+    margin-left: 5px;
+    margin-top: 0px;
+    border: #B0BAA6 1px solid;
+    width: 178px;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: #fefff5;
+}
+
+/*CSS for cLeft*/
+
+#leftCol {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 5px;
+}
+
+/*CSS for cRight*/
+
+#rightCol {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 10px;
+}
+
+/*CSS for contact info headings*/
+
+div.module h3,
+div.module_cinfo h3 {
+    background: url(images/box_top.gif) repeat-x left bottom;
+    padding: 0px;
+    padding-left: 10px;
+    height: 25px;
+    vertical-align: middle;
+    font-size: 14px;
+    ont-weight: bold;
+    border-bottom: #B0BAA6 1px solid;
+    padding-top: 5px;
+}
+
+/*Css for Contact Info Module*/
+
+div.module_cinfo {
+    margin-left: 5px;
+    margin-top: 0px;
+    border: #B0BAA6 1px solid;
+    width: 178px;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: #fefff5;
+    padding-bottom: 7px;
+}
+
+div.module div div div span,
+div.module_cinfo div div div span {
+    padding-left: 5px;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+div.module_cinfo div div div span.info_name {
+    padding-top: 7px;
+}
+
+/*Css for menu gray image*/
+
+div.module_gry {
+    margin-left: 5px;
+    margin-top: 0px;
+    border: #B0BAA6 1px solid;
+    width: 178px;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: #fefff5;
+}
+
+div.module_gry div div div table tbody tr td a.mainlevel {
+    padding-left: 6px;
+    background: url(images/bullet_green.gif) top left no-repeat;
+    line-height: 20px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+div.module_gry div div div ul {
+    margin-left: 5px;
+}
+
+div.module_gry div div div ul#mainlevel li a {
+    padding-left: 5px;
+}
+
+div.module_gry h3 {
+    background: url(images/box_top.gif) repeat-x left bottom;
+    padding: 0px;
+    padding-left: 10px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: #B0BAA6 1px solid;
+    padding-top: 8px;
+    vertical-align: middle;
+}
+
+div.module_gry div div div {
+    margin: 0px;
+}
+
+div.module_gry div div div a {
+    color: #558C07;
+}
+
+div.module_gry div div div table.at_main_table {
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #fefff5;
+}
+
+div.module_gry div div div table tr td {
+    padding-left: 6px;
+    background-color: #fefff5;
+}
+
+div.module_gry div div div table.at_main_table tr td {
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+div.module_gry div div div a.mainlevel {
+    line-height: 20px;
+    color: #000000;
+}
+
+
+
+marquee {
+    font-size: 10px;
+}
+
+.imagesidebar{
+    width:200px;
+    height:160px;
+    float:right;
+    border-radius:3px;
+    margin-left:0px;
+    margin-right:5px;
+    margin-top:0px;
+    margin-bottom:5px;
+    clear:right;
+
+}
+
+/*Css for Blocks: A B C D*/
+
+#blocks {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+td.mfc_toptd {
+    background: url(images/tab_left.gif) left top no-repeat;
+    text-align: left;
+}
+
+td.lnews_toptd {
+    background: url(images/tab_left.gif) left top no-repeat;
+    text-align: left;
+}
+
+td.eog_toptd {
+    background: url(images/tab_left.gif) left top no-repeat;
+    text-align: left;
+}
+
+td.md_toptd {
+    background: url(images/tab_left.gif) left top no-repeat;
+    text-align: left;
+}
+
+/* CSS for block* */
+
+div.moduletable_blockA,
+div.moduletable_blockB,
+div.moduletable_blockC,
+div.moduletable_blockD {
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: url(images/tab_right.gif) top right no-repeat;
+    color: #212020;
+}
+
+div.moduletable_blockA h3,
+div.moduletable_blockB h3,
+div.moduletable_blockC h3,
+div.moduletable_blockD h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 5px;
+    line-height: 34px;
+    margin-right: 5px;
+    background: url(images/tab_bg.gif) left top repeat-x;
+    margin-bottom: 10px;
+}
+
+div.moduletable_blockA,
+div.moduletable_blockB,
+div.moduletable_blockC,
+div.moduletable_blockD tr td {
+    text-align: left;
+    font-size: 12px;
+    color: #212020;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+div.moduletable_blockA tr td,
+div.moduletable_blockC tr td {
+    border-bottom: 1px solid #CCCCCC;
+    padding-top: 2px;
+}
+
+div.moduletable_blockA img {
+    border: 1px solid #8C8C00;
+}
+
+div.moduletable_blockA a,
+div.moduletable_blockB a,
+div.moduletable_blockC a,
+div.moduletable_blockD a {
+    color: #558C07;
+    font-weight: bold;
+}
+
+/* CSS for Readmeore */
+
+.readon {
+    background: url(images/btn_read_more.gif) no-repeat top right;
+    color: #333333;
+    text-indent: -5000px;
+    width: 72px;
+    height: 18px;
+    float: right;
+    outline: none;
+    margin-bottom: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding-right: 0px;
+}
+
+a.readon_home {
+    font-weight: bold;
+    color: #558C07;
+    padding-right: 20px;
+}
+
+/* CSS for Under Table */
+
+.innercontent {
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table.contentpaneopen {
+    color: #212020;
+}
+
+table.contentpaneopen tbody tr td {
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+table.contentpaneopen tbody tr td.contentheading {
+    color: #4B9B07;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    border: 0px;
+    padding-left: 10px;
+}
+
+table.blog tbody tr td table tbody tr td table.contentpaneopen tbody tr td {
+    padding-left: 0px;
+}
+
+/* Css For Footer*/
+
+#footer {
+    padding: 0px;
+    padding-top: 10px;
+    width: 100%;
+    height: 71px;
+    {% comment %} /*background: url(images/bg_2_marge.gif) repeat-x top left;*/ {% endcomment %}
+    text-align: center;
+    font-size: 15px;
+    color: blue;
+    background-color:#ECD4DB;
+}
+
+div.footertext {
+    border-top: 1px solid black;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    color: blue;
+}
+
+div.footertext p {
+    color: blue;
+}
+
+div.footertext table tbody tr td a.mainlevel {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

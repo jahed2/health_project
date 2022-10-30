@@ -1,0 +1,21 @@
+{% load static %}
+
+<html>
+    <head>
+        <link rel=”stylesheet” href=”{% static 'invest.css' %}”>
+    </head>
+<body>
+   <div class="main">
+
+        <h2>Investigations Price</h2>
+        <p style="color:brown;">Published Date</p>
+        <h1 style="color:green;">Services available at NILMRC with price.</h1>
+        {% for data in dataset %}
+
+        <a href="{{ data.price_list.url }}">Check price list</a><br>    
+     
+        {% endfor %}
+     
+    </div>
+</body>
+</html> 

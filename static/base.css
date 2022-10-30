@@ -1,0 +1,18 @@
+h2{
+    color:rgb(122, 128, 189);
+}
+h1{
+   color:rgb(29, 60, 105);
+}
+
+a{
+  color:green;
+}
+p{
+    color:chocolate;
+}
+
+ul img{
+  width: 40px,
+  height: 40px
+}

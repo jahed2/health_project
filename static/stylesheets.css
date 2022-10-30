@@ -1,0 +1,688 @@
+/*CSS CLEANED BY ABDULLAH AL MARUF*/
+
+@charset "utf-8";
+* {
+  padding: 1;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  /* background-color: #c5d394; */
+  background: url("images/stories/bg_body.gif") repeat-y scroll center top;
+}
+
+/* slider css starts here */
+
+.slider {
+  background: url("images/stories/slide-0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 100%;
+  height: 40vh;
+  /* transition: all 0.2s ease-in-out; */
+  animation: slide 14s infinite;
+}
+
+.slider-content {
+  padding: 100px 0 0 50px;
+  display: flex;
+}
+
+.slider-content h4 {
+  margin: 20px 0 0 10px;
+  font-size: 14px;
+}
+
+.overlay {
+  color: #fff;
+  width: 100%;
+  height: 40vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+@keyframes slide {
+  25% {
+    opacity: 1;
+    background: url("images/stories/slide-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  50% {
+    opacity: 1;
+    background: url("images/stories/slide-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  75% {
+    opacity: 1;
+    background: url("images/stories/slide-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  100% {
+    opacity: 1;
+    background: url("images/stories/slide-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* slider css ends here */
+
+/* Objective css starts here */
+.objective {
+  border: 2px solid #558c07;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(255 255 255),
+    0.3em 0.3em 1em rgb(0 0 0 / 30%);
+  margin-bottom: 40px;
+  margin-right: 12px;
+}
+.objective h2 {
+  color: #333333;
+}
+.obj-content {
+  margin-top: 10px;
+}
+.obj-content ul li {
+  line-height: 26px;
+}
+/* Objective css ends here */
+
+a,
+a:link {
+  color: #558c07;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #003399;
+  text-decoration: underline;
+}
+
+#wrapper {
+  /* text-align: center; */
+  width: 1080px;
+}
+
+#header {
+  height: 94px;
+  width: 100%;
+  background: url("images/stories/banner_bg.jpg") repeat-x top left;
+  padding: 0px;
+  margin: 0px auto;
+}
+
+#logo {
+  background: url("images/stories/bangladesh_govt_logo.gif") no-repeat;
+  height: 82px;
+  width: 82px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+#title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffff;
+  padding: 0px;
+  padding-left: 15px;
+  padding-top: 20px;
+  line-height: 24px;
+  text-align: left;
+}
+
+#title span.subtitle {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 0px;
+  padding-top: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+#banner {
+  width: 336px;
+  height: 94px;
+  background: url("images/stories/banner_right.jpg") no-repeat right top;
+}
+
+#navBar {
+  /* background: url("images/stories/top_nav_bg.jpg") left top repeat-x; */
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+/* Moving text */
+.moving-text {
+  font-size: 20px;
+  color: red;
+  padding: 10px 0;
+}
+
+/*CSS for Menu*/
+
+#mainMenu {
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+#navBar a#active_menu {
+  background-position: 0px 0px !important;
+  border-left: 0px solid #78c757;
+  border-right: 0px solid #78c757;
+  background-position: 0px -1px;
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#wrap #menu table tr td {
+  background: #fefff5;
+}
+
+#wrap #menu table tr td a.mainlevel-trans {
+  background: #fefff5 url("images/stories/nav_bullet.gif") top left no-repeat;
+  border: 0px;
+  border-bottom: 1px solid #b0baa6;
+  color: #000000;
+}
+
+#wrap #menu table tr td a.mainlevel-trans:hover {
+  background: #e8ebb1 url("images/stories/nav_bullet.gif") top left no-repeat;
+  border: 0px;
+  border-bottom: 1px solid #b0baa6;
+  color: #000000;
+}
+
+#wrap #menu table tr td a.mainlevel_active-trans {
+  background: #c1e88f url("images/stories/nav_bullet.gif") top left no-repeat;
+  border: 0px;
+  border-bottom: 1px solid #b0baa6;
+  color: #000000;
+}
+
+#navBar .right {
+  text-align: center;
+}
+
+#navBar .right a {
+  display: inline-block;
+  padding: 0px 8px !important;
+  color: #fff;
+  line-height: 3em;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#navBar .right a:hover {
+  background-position: 0px 1px !important;
+}
+
+/* CSS for submenue starts*/
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #555;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: #333333 !important;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+} */
+/* CSS for submenue ends*/
+
+.pathway {
+  text-align: left;
+  margin-left: 12px;
+  color: #ff7900;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.pathway a {
+  text-align: left;
+  margin-left: 0px;
+  color: #558c07;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/*CSS for Module setup in line*/
+
+div.module {
+  margin-left: 5px;
+  margin-top: 0px;
+  border: #b0baa6 1px solid;
+  width: 178px;
+  margin-bottom: 10px;
+  text-align: left;
+  background-color: #fefff5;
+}
+
+/*CSS for cLeft*/
+
+#leftCol {
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 5px;
+}
+
+/*CSS for cRight*/
+
+#rightCol {
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 10px;
+}
+
+/*CSS for contact info headings*/
+
+div.module h3,
+div.module_cinfo h3 {
+  background: url("images/stories/box_top.gif") repeat-x left bottom;
+  padding: 0px;
+  padding-left: 10px;
+  height: 25px;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: #b0baa6 1px solid;
+  padding-top: 5px;
+}
+
+/*Css for Contact Info Module*/
+
+div.module_cinfo {
+  margin-left: 5px;
+  margin-top: 0px;
+  border: #b0baa6 1px solid;
+  width: 178px;
+  margin-bottom: 10px;
+  text-align: left;
+  background-color: #fefff5;
+  padding-bottom: 7px;
+}
+
+div.module div div div span,
+div.module_cinfo div div div span {
+  padding-left: 5px;
+  line-height: 18px;
+  font-size: 12px;
+}
+
+div.module_cinfo div div div span.info_name {
+  padding-top: 7px;
+}
+
+/*Css for menu gray image*/
+
+div.module_gry {
+  margin-left: 5px;
+  margin-top: 0px;
+  border: #b0baa6 1px solid;
+  width: 180px;
+  margin-bottom: 10px;
+  text-align: left;
+  background-color: #fff;
+}
+
+div.module_gry div div div table tbody tr td a.mainlevel {
+  padding-left: 6px;
+  background: url("images/stories/bullet_green.gif") top left no-repeat;
+  line-height: 20px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+div.module_gry div div div ul {
+  margin-left: 5px;
+}
+
+div.module_gry div div div ul#mainlevel li a {
+  padding-left: 5px;
+}
+
+div.module_gry h3 {
+  background: url("images/stories/box_top.gif") repeat-x left bottom;
+  padding: 0px;
+  padding-left: 10px;
+  height: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  border-bottom: #b0baa6 1px solid;
+  padding-top: 8px;
+  vertical-align: middle;
+}
+
+div.module_gry div div div {
+  margin: 0px;
+}
+
+div.module_gry div div div a {
+  color: #558c07;
+}
+
+div.module_gry div div div table.at_main_table {
+  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #fefff5;
+}
+
+div.module_gry div div div table tr td {
+  padding-left: 6px;
+  background-color: #fefff5;
+}
+
+div.module_gry div div div table.at_main_table tr td {
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+div.module_gry div div div a.mainlevel {
+  line-height: 20px;
+  color: #000000;
+}
+
+marquee {
+  font-size: 10px;
+}
+
+.imagesidebar {
+  width: 200px;
+  height: 160px;
+  float: right;
+  border-radius: 3px;
+  margin-left: 0px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  clear: right;
+}
+
+/* board members name css */
+.board-members {
+  padding-left: 6px;
+  font-size: 10px;
+  font-weight: bold;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+/*Css for Blocks: A B C D*/
+
+#blocks {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+td.mfc_toptd {
+  background: url("images/stories/tab_left.gif") left top no-repeat;
+  text-align: left;
+}
+
+td.lnews_toptd {
+  background: url("images/stories/tab_left.gif") left top no-repeat;
+  text-align: left;
+}
+
+td.eog_toptd {
+  background: url("images/stories/tab_left.gif") left top no-repeat;
+  text-align: left;
+}
+
+td.md_toptd {
+  background: url("images/stories/tab_left.gif") left top no-repeat;
+  text-align: left;
+}
+
+/* CSS for block* */
+
+div.moduletable_blockA,
+div.moduletable_blockB,
+div.moduletable_blockC,
+div.moduletable_blockD {
+  margin: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: url("images/stories/tab_right.gif") top right no-repeat;
+  color: #212020;
+}
+
+div.moduletable_blockA h3,
+div.moduletable_blockB h3,
+div.moduletable_blockC h3,
+div.moduletable_blockD h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 5px;
+  line-height: 34px;
+  margin-right: 5px;
+  background: url("images/stories/tab_bg.gif") left top repeat-x;
+  margin-bottom: 10px;
+}
+
+div.moduletable_blockA,
+div.moduletable_blockB,
+div.moduletable_blockC,
+div.moduletable_blockD tr td {
+  text-align: left;
+  font-size: 12px;
+  color: #212020;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+div.moduletable_blockA tr td,
+div.moduletable_blockC tr td {
+  border-bottom: 1px solid #cccccc;
+  padding-top: 2px;
+}
+
+div.moduletable_blockA img {
+  border: 1px solid #8c8c00;
+}
+
+div.moduletable_blockA a,
+div.moduletable_blockB a,
+div.moduletable_blockC a,
+div.moduletable_blockD a {
+  color: #558c07;
+  font-weight: bold;
+}
+
+/* CSS for Readmeore */
+
+/* CSS for notices starts */
+.notices {
+  border: 1px solid #ddd;
+  margin-top: 22px;
+  border-radius: 14px;
+  padding: 22px 0px 18px 0;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.notices ul li {
+  margin-left: -30px;
+  list-style: none;
+  margin-bottom: 5px;
+  background: url("images/stories/angle-tick.png") no-repeat center left;
+}
+.notices ul li a {
+  color: #212020;
+  line-height: 20px;
+  padding-left: 15px;
+  font-size: 12px;
+}
+/* CSS for notices ends */
+
+.readon {
+  background: url("images/stories/btn_read_more.gif") no-repeat top right;
+  color: #333333;
+  text-indent: -5000px;
+  width: 72px;
+  height: 18px;
+  float: right;
+  outline: none;
+  margin-bottom: 0;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding-right: 0px;
+}
+
+a.readon_home {
+  font-weight: bold;
+  color: #558c07;
+  padding-right: 20px;
+}
+
+/* CSS for Under Table */
+
+.innercontent {
+  width: 100%;
+  text-align: left;
+  padding: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+table.contentpaneopen {
+  color: #212020;
+}
+
+table.contentpaneopen tbody tr td {
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+table.contentpaneopen tbody tr td.contentheading {
+  color: #4b9b07;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  border: 0px;
+  padding-left: 10px;
+}
+
+table.blog tbody tr td table tbody tr td table.contentpaneopen tbody tr td {
+  padding-left: 0px;
+}
+
+/* Css For Footer*/
+
+#footer {
+  padding: 0px;
+  padding-top: 10px;
+  width: 100%;
+  height: 71px;
+  text-align: center;
+  font-size: 15px;
+  color: blue;
+  background-color: #ecd4db;
+}
+
+.footer-img {
+  background: url("../static/images/stories/footer_upper_bg.png") scroll 0 0
+    rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80px;
+  width: 1020px;
+}
+
+div.footertext {
+  padding-top: 4px;
+  padding-bottom: 3px;
+  color: blue;
+}
+
+div.footertext p {
+  float: left;
+  padding: 14px 0 0 12px;
+  color: #555;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+div.footertext table tbody tr td a.mainlevel {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* gallery page css starts */
+.image-gallery {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-gallery h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333333;
+  padding: 20px 0;
+}
+/* gallery page css ends */
